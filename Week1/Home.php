@@ -6,10 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-
-
-
-
     <?php // PHP OPEN TAGE
 
     //DISPLAY MESSGE USING FOE ECHO OR PRINT
@@ -17,7 +13,7 @@
      echo"<h1> Welcome  to Home PHP </h1>";
 
      print"<h2>Meymuun<h2/>";
-
+     
      echo("<h2>Helo</h2>");
 
 
