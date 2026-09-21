@@ -10,19 +10,15 @@
 <?php  
  define ("Age",10);
     echo Age; 
-
      echo "<br>";
-    
 
     // ELSE IF IN PHP
-
     $Da = 20;
     if($Da>=18)
     echo "Adult";
     else
         echo "Child";
      echo "<br>";
-
 
     $Age = 20;
     if($Age <=18)
@@ -31,7 +27,7 @@
         echo "Child";
      echo "<br>";
 
-
+     // IF ELSEIF ELSE
        $marks=87;
      if($marks>=90)
         echo"Excellent";
@@ -41,11 +37,9 @@
         echo"minimal pass";
     else
         echo"Not pass";
-
     echo "<br>";
 
-
-
+    // Do-while loop
     $result=1;
     $n=5;
     do{
@@ -56,12 +50,7 @@
 
     echo "<br>";
 
-
-
-   
-    
-
-
+    //Switch
      switch ($Marks =80) {
         case ($Marks>=90):
             echo "Excellent";
@@ -81,30 +70,24 @@
      echo "<br>";
 
      $fuel = 8;
-
      echo $fuel <=10 ? "Low thank":" Full Thank";
-
     echo "<br>";
-
-
+    // WHILE LOOP
     $count = 1;
-
     while($count <=5){ 
 
           echo $count;
           $count++;
-
     } 
-
      echo "<br>";
-
+     
+     // FOR LOOP
      $i=1;
      for($i=1; $i<=5; $i++);
      echo $i;
 
       echo "<br>";
-
-
+      // Else if
         $marks=87;
      if($marks>=90)
         echo" waw Excellent";
@@ -114,25 +97,21 @@
         echo"minimal pass";
     else
         echo"Not pass";
-
-   
-
-
-
-
+    // For Loop
     $Countt = 4;
-
 for($Countt = 1; $Countt <= 15; $Countt++) {
     echo "Count is " . $Countt;
     echo "<br>";
 }
-     Multiple table
+    //  Multiple table nasted loop
      for($i = 1; $i <= 5; $i++) {
        for($j = 1; $j <= 5; $j++) {
         echo $i . " X " . $j . " = " . ($i * $j) . "<br>";
     }
 }
 echo"<br>";
+
+// Nasted loop
 
 for($i = 1; $i <= 2; $i++) {
     for($j = 1; $j <= 2; $j++) {
@@ -141,7 +120,6 @@ for($i = 1; $i <= 2; $i++) {
 }
   
 
- 
     ?>
     
 </body>
