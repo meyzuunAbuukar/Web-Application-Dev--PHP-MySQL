@@ -123,6 +123,85 @@ for($i=1; $i<=$x && $i<=$y; $i++){
 echo "HCF =" .$hcf;  
 
 
+//8
+
+
+echo "<h2>Multiplication Table</h2>";
+echo "<table border='1' cellpadding='8' cellspacing='0'>";
+
+for ($i = 1; $i <= 12; $i++) {
+
+    echo "<tr>";
+
+    for ($j = 1; $j <= 12; $j++) {
+        echo "<td>" . ($i * $j) . "</td>";
+    }
+
+    echo "</tr>";
+}
+
+echo "</table>";
+
+echo "<br>";
+
+
+
+//9
+
+
+$num = 17;
+$isPrime = true;
+
+if ($num <= 1) {
+    $isPrime = false;
+} else {
+
+    for ($i = 2; $i < $num; $i++) {
+
+        if ($num % $i == 0) {
+            $isPrime = false;
+            break;
+        }
+    }
+}
+
+if ($isPrime) {
+    echo $num . " is a Prime Number";
+} else {
+    echo $num . " is a Non-Prime Number";
+}
+
+echo "<br>";
+
+
+
+
+//10
+echo "<br>";
+
+
+
+for ($num = 10; $num <= 50; $num++) {
+
+    $isPrime = true;
+
+    for ($i = 2; $i < $num; $i++) {
+
+        if ($num % $i == 0) {
+            $isPrime = false;
+            break;
+        }
+    }
+
+    if ($isPrime) {
+        echo $num . "<br>";
+    }
+}
+
+
+
+
+
 
 
 
