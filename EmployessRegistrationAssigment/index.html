@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Registration</title>
+</head>
+<body>
+
+    <h2>Employee Registration Form</h2>
+
+    <!-- Send employee information to process.php -->
+    <form action="process.php" method="post"
+          enctype="multipart/form-data">
+
+        <label>Employee Full Name:</label>
+        <input type="text" name="employee_name">
+        <br><br>
+
+        <label>Employee ID:</label>
+        <input type="text" name="employee_id">
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+
+        <label>Department:</label>
+        <select name="department">
+            <option value="">Select Department</option>
+            <option value="Human Resources">Human Resources</option>
+            <option value="Finance">Finance</option>
+            <option value="Information Technology">
+                Information Technology
+            </option>
+            <option value="Administration">Administration</option>
+        </select>
+        <br><br>
+
+        <label>Basic Salary:</label>
+        <input type="number" name="basic_salary" step="any">
+        <br><br>
+
+        <label>Allowance:</label>
+        <input type="number" name="allowance" step="any">
+        <br><br>
+
+        <label>Deduction:</label>
+        <input type="number" name="deduction" step="any">
+        <br><br>
+
+        <label>Employee Document:</label>
+        <input type="file" name="employee_document">
+        <br><br>
+
+        <input type="submit" name="register"
+               value="Register and Calculate">
+
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
